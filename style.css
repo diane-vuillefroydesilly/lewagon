@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/banner.css");
+body {
+  font-family:'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family:'Roboto', sans-serif;
+  font-weight: bold; }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin: 10px;
+    width: calc(50% - 30px);
+}
+
+.city-name {
+    flex: 1; 
+}
+
+.city-image {
+    width: 100px;
+    height: auto; 
+    margin-left: 20px; 
+}
+
+  
